@@ -157,7 +157,8 @@ body {
 .reveal code {
   font-family: monospace;
   color: green;
-  text-transform: none; }
+  text-transform: none;
+  font-family: 'PT Mono',Consolas,monaco,monospace;}
 
 .reveal pre code {
   color: white;

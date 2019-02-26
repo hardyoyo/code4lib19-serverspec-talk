@@ -30,7 +30,12 @@
 
   `reveal-md C4L19-serverspec-lightning-talk.md --watch`
 
-  To print these slides, check out the most awesome [Decktape](https://github.com/astefanutti/decktape).
+  To print these slides, run the following:
+
+  `reveal-md --print C4L19-serverspec-lightning-talk.pdf C4L19-serverspec-lightning-talk.md`
+
+  Or, if you just want to view the slides, here is a PDF of them:
+  [PDF](C4L19-serverspec-lightning-talk.pdf).
 
 ![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/80x15.png)
 _This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/)</a>._
