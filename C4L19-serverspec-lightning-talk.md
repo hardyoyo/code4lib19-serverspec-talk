@@ -162,7 +162,7 @@ something I've never used before, or want to try again.
 OK, so, that's what the tests look like, what about running them?
 ---
 # Run the tests
-* RSpec tests usually go in a folder called @css[just-code](spec)
+* RSpec tests usually go in a folder called `spec`)
 * calling ServerSpec is exactly the same as any other RSpec test
 
 `rspec spec`
