@@ -25,7 +25,7 @@
 
   To play these slides requires [Reveal-md](https://github.com/webpro/reveal-md), which
   can be installed with a simple `npm install -g reveal-md` command, if you have
-  npm and Node.js installed. In order to edit on these slides, you can run the
+  npm and Node.js installed. In order to edit these slides, you can run the
   following command:
 
   `reveal-md C4L19-serverspec-lightning-talk.md --watch`
