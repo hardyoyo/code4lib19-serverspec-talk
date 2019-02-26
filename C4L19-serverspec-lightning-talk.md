@@ -243,7 +243,8 @@ Note:
 Here's the code for that demo. And a link to the documentation that inspired it.
 I promised a diagram of all this stuff, here's one I found.
 
----?image=assets/images/serverspec_components.jpg&size=contain
+---
+<!-- .slide: data-background="./images/serverspec_components.jpg" data-background-size="contain"-->
 
 Note:
 It's all an extension of RSpec. ServerSpec sits on top of another gem called
@@ -276,7 +277,7 @@ Note:
 What about containers? Docker? There are options, and fun reading. I recommend
 DockerSpec, here, let me show you a demo.
 
----?terminal=sessions/docker-cantaloupe-demo.cast&theme=monokai&font=14px&color=#000&autoplay=true&speed=2&title=github.com/UCLALibrary/docker-cantaloupe
+---
 ## Demo: 2 Docker-Cantaloupe
 * [code: github.com/UCLALibrary/docker-cantaloupe](https://github.com/UCLALibrary/docker-cantaloupe)
 * [demo](https://asciinema.org/a/0lKzSKyfu9CJpoAa2Nq1CZkIZ)
@@ -287,7 +288,7 @@ https://jjasghar.github.io/blog/2013/07/12/serverspec-the-new-best-way-to-learn-
 * _ServerSpec Components_, adapted from ["Introduction to Test-Driven Docker Development,"](https://entwickler.de/online/development/docker-test-driven-development-b-170207.html) by Peter Roßbach,  Wednesday, August 12, 2015, [Entwickler.de](https://entwickler.de/)
 
 Slides:
-[github.com/hardyoyo/code4lib19-serverspec-workshop](https://github.com/hardyoyo/code4lib19-serverspec-workshop)
+[github.com/hardyoyo/code4lib19-serverspec-talk](https://github.com/hardyoyo/code4lib19-serverspec-talk)
 
 Note:
 Credits, links in the slides. Thanks!
