@@ -4,6 +4,7 @@ theme: ./hardy.css
 highlight-theme: atom-one-dark
 revealOptions:
     transition: 'none'
+    slideNumber: 'c/t'
 ---
 
 # Wait, what?
@@ -17,6 +18,10 @@ Digital Library Software Developer, UCLA Library
 @hardy.pottinger
 
 hpottinger@library.ucla.edu
+
+![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/80x15.png)
+
+_This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/)</a>._
 
 Note:
 Hi. I'm Hardy Pottinger, I'm a developer at UCLA Library. This talk is about ServerSpec.
