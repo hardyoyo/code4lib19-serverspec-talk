@@ -20,6 +20,9 @@
   Reveal.js directly will produce a slide deck which *will* be capable of
   being recorded.
 
+  Demo 1: https://asciinema.org/a/LrkbHUBGBsd0NuR3ZVPkc6bC3
+  Demo 2: https://asciinema.org/a/0lKzSKyfu9CJpoAa2Nq1CZkIZ
+
   To play these slides requires [Reveal-md](https://github.com/webpro/reveal-md), which
   can be installed with a simple `npm install -g reveal-md` command, if you have
   npm and Node.js installed. In order to edit on these slides, you can run the
