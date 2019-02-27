@@ -12,7 +12,9 @@
     <meta property="og:url" content="{{{absoluteUrl}}}" />
     {{/absoluteUrl}}
     <link rel="stylesheet"
-      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/default.min.css">
+      href="{{{absoluteUrl}}}/assets/default.min.css">
+    <link rel="stylesheet"
+      href="{{{absoluteUrl}}}/assets/asciinema-player.css">
     <link rel="stylesheet" href="{{{base}}}/css/reveal.css" />
     <link rel="stylesheet" href="{{{base}}}/{{{themeUrl}}}" id="theme" />
     <link rel="stylesheet" href="{{{base}}}{{{highlightThemeUrl}}}" />
@@ -58,7 +60,8 @@
         { src: '{{{base}}}/plugin/zoom-js/zoom.js', async: true },
         { src: '{{{base}}}/plugin/notes/notes.js', async: true },
         { src: '{{{base}}}/plugin/math/math.js', async: true },
-        { src: 'plugin/highlight.min.js' },
+        { src: 'assets/highlight.min.js' },
+        { src: 'assets/asciinema-player.js' },
         { src: 'node_modules/reveal-code-focus/reveal-code-focus.js', async: true, callback: function() { RevealCodeFocus(); } }
       ];
 
