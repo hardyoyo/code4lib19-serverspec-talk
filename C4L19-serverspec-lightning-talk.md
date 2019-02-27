@@ -254,7 +254,7 @@ you are testing. This is important if you find a bug.
 ---
 # Gotchas
 * you'll need to be sure the `ss` command is available on the test target
-  * this installed by default on RHEL
+  * this is installed by default on RHEL
   * for Ubuntu, you'll need to install the `iproute2` package
 * you'll need to be sure `/usr/sbin` is in the path, if your test target is RHEL
   * you can set the `:path` in spec_helper
