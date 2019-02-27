@@ -1,5 +1,6 @@
 ---
 title: Wait, what? Getting your bearings with ServerSpec
+template: ./reveal.html
 theme: ./hardy.css
 highlight-theme: atom-one-dark
 revealOptions:
@@ -108,6 +109,10 @@ Input target host name: waitwat
  + Rakefile
  + .rspec
 ```
+`serverspec-init` <!-- .element: class="fragment" data-code-focus="1" -->
+`, answers` <!-- .element: class="fragment" data-code-focus="5,9,10,11" -->
+`, sample_spec.rb` <!-- .element: class="fragment" data-code-focus="14" -->
+
 
 Note:
 So, you type in serverspec-init and answer a few questions, pick your OS, select
@@ -135,6 +140,11 @@ describe file(/etc/httpd/conf/httpd.conf) do
   it {should contain "ServerName my-server-name"}
 end
 ```
+`spec_helper`<!-- .element: class="fragment" data-code-focus="1" -->
+`, package resource`<!-- .element: class="fragment" data-code-focus="2-4" -->
+`, service resource`<!-- .element: class="fragment" data-code-focus="6-9" -->
+`, port resource`<!-- .element: class="fragment" data-code-focus="11-13" -->
+`, file resource`<!-- .element: class="fragment" data-code-focus="15-18" -->
 
 Note:
 You've seen Rails, you've seen a "helper", it's a way to pull out some

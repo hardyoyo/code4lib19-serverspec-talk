@@ -75,6 +75,13 @@ body {
 /*********************************************
  * OTHER
  *********************************************/
+
+/* .line styles required by the reveal-code-focus plugin */
+/* see https://github.com/bnjmnt4n/reveal-code-focus for more info */
+.line { display: block; }
+.line.focus { background: #fdf6e3; color: #657b83; }
+.line.focus .hljs-comment, .line.focus .hljs-quote, .line.focus .hljs-keyword { color: #93a1a1; }
+
 .reveal p {
   margin: 20px 0;
   line-height: 1.3; }
@@ -165,7 +172,7 @@ body {
   display: block;
   padding: 5px;
   overflow: auto;
-  max-height: 400px;
+  max-height: 500px;
   word-wrap: normal; }
 
 .reveal table {
