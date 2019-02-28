@@ -6,9 +6,7 @@ highlight-theme: atom-one-dark
 revealOptions:
     transition: 'none'
     slideNumber: 'c/t'
-    keyboard: {
-        32: null
-      }
+
 ---
 
 # Wait, what?
@@ -193,7 +191,7 @@ Rakefile. Here, I'll show you a demo.
 ## Demo: 1 ServerSpec-Samvera
 * [code: tinyurl.com/uclalibrary-serverspec-samvera](https://tinyurl.com/uclalibrary-serverspec-samvera)
 * [demo](https://asciinema.org/a/LrkbHUBGBsd0NuR3ZVPkc6bC3)
-<asciinema-player src="sessions/serverspec_samvera_demo.cast" speed="2" cols="100" rows="20" font-size="16px" theme="monokai" tabindex="1" />
+<asciinema-player src="sessions/serverspec_samvera_demo.cast" speed="2" cols="100" rows="20" font-size="16px" theme="monokai" tabindex="1" id="demo1" />
 ---
 # Scaling up to more than one server
 https://tinyurl.com/uclalibrary-serverspec-samvera
@@ -295,7 +293,7 @@ DockerSpec, here, let me show you a demo.
 ## Demo: 2 Docker-Cantaloupe
 * [code: github.com/UCLALibrary/docker-cantaloupe](https://github.com/UCLALibrary/docker-cantaloupe)
 * [demo](https://asciinema.org/a/0lKzSKyfu9CJpoAa2Nq1CZkIZ)
-<asciinema-player src="sessions/docker-cantaloupe-demo.cast" speed="2" cols="100" rows="20" font-size="16px" theme="monokai" tabindex="1" />
+<asciinema-player src="sessions/docker-cantaloupe-demo.cast" speed="2" cols="100" rows="20" font-size="16px" theme="monokai" tabindex="1" id="demo2" />
 ---
 # Thanks
 * Inspiration for this talk: JJ Asghar's /Rants and Ramblings blog post on ServerSpec:
