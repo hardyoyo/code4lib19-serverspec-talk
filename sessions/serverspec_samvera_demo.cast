@@ -1,4 +1,4 @@
-{"version": 2, "width": 120, "height": 20, "timestamp": 1542835653, "env": {"SHELL": "/bin/bash", "TERM": "xterm-256color"}, "title": "Demo: UCLALib_ServerSpec_Samvera, Ursus environment tests"}
+{"version": 2, "width": 100, "height": 20, "timestamp": 1542835653, "env": {"SHELL": "/bin/bash", "TERM": "xterm-256color"}, "title": "Demo: UCLALib_ServerSpec_Samvera, Ursus environment tests"}
 [0.111769, "o", "\r\n"]
 [0.431939, "o", "hpottinger@hpottinger-Galago-Pro:~/workspace/uclalib_serverspec_samvera \u001b[32mmaster\u001b[0m= \u001b[0m|-\u001b[0;31m/ \u001b[0m"]
 [2.836198, "o", "r"]
