@@ -13,7 +13,7 @@ revealOptions:
 
 ### Getting your bearings with ServerSpec
 
-Hardy Pottinger
+*Hardy Pottinger*
 
 Digital Library Software Developer, UCLA Library
 
@@ -112,6 +112,7 @@ Input target host name: waitwat
 ```
 `serverspec-init` <!-- .element: class="fragment" data-code-focus="1" -->
 `, answers` <!-- .element: class="fragment" data-code-focus="5,9,10,11" -->
+`, boom` <!-- .element: class="fragment" data-code-focus="12-17" -->
 `, sample_spec.rb` <!-- .element: class="fragment" data-code-focus="14" -->
 
 
