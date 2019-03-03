@@ -41,6 +41,14 @@ Here's a thing I know...
 Note:
 We are constantly learning. Heh, mailing list. And our jobs change all the time. We are always the newbie.
 
+----
+<!-- .slide: data-background="./images/_absolutely_free_photos_original_photos_connection-of-ideas-3600x2542_26127.jpg" data-background-size="contain"-->
+# always the newbie <!-- .element: class="fragment" -->
+Note:
+Here's a story I read a while back. First day, new job, your trainer has been giving you notes all day, and then they go, “Ok, lets walk through each machine. There are 10 web servers, 9 of them are called www-something, and one is called paco.” You quickly grab a piece of paper, “Paco?”, “Yep the admin before you didn’t like standard names, wanted to give machines ‘personality’, so we have that one off.” Sound familiar? Here's something you can do to make sense of all that stuff.
+
+
+
 ---
 # Why write tests?
 ## With ServerSpec or any similar tool?
@@ -295,6 +303,19 @@ DockerSpec, here, let me show you a demo.
 * [code: github.com/UCLALibrary/docker-cantaloupe](https://github.com/UCLALibrary/docker-cantaloupe)
 * [demo](https://asciinema.org/a/0lKzSKyfu9CJpoAa2Nq1CZkIZ)
 <asciinema-player src="sessions/docker-cantaloupe-demo.cast" speed="2" cols="100" rows="20" font-size="16px" theme="monokai" tabindex="1" id="demo2" />
+----
+# Other options
+* [InSpec](https://github.com/chef/inspec) (still Ruby, buy the Chef people)
+* [Goss](https://github.com/aelsabbahy/goss) (YAML, can generate tests from current system state)
+* [TestInfra](https://github.com/philpep/testinfra) (Python, works well with Ansible)
+
+Note:
+There are other options, of course, Inspec is still Ruby and the syntax is very similar (it's also based on RSpec), Goss can generate tests based on the current system state and is a great option if you're
+in a hurry. Testinfra is a great fit for an Ansible shop.
+----
+# Why ServerSpec?
+
+
 ---
 # Thanks
 * Inspiration for this talk: JJ Asghar's /Rants and Ramblings blog post on ServerSpec:
