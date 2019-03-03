@@ -305,16 +305,29 @@ DockerSpec, here, let me show you a demo.
 <asciinema-player src="sessions/docker-cantaloupe-demo.cast" speed="2" cols="100" rows="20" font-size="16px" theme="monokai" tabindex="1" id="demo2" />
 ----
 # Other options
-* [InSpec](https://github.com/chef/inspec) (still Ruby, buy the Chef people)
+* [InSpec](https://github.com/chef/inspec) (still Ruby, by the Chef people)
 * [Goss](https://github.com/aelsabbahy/goss) (YAML, can generate tests from current system state)
 * [TestInfra](https://github.com/philpep/testinfra) (Python, works well with Ansible)
+* [Molecule](https://github.com/ansible/molecule) (only tests Ansible roles)
 
 Note:
 There are other options, of course, Inspec is still Ruby and the syntax is very similar (it's also based on RSpec), Goss can generate tests based on the current system state and is a great option if you're
-in a hurry. Testinfra is a great fit for an Ansible shop.
+in a hurry. Testinfra is a great fit for an Ansible shop. Molecule is for Ansible Roles, so it might be enough.
 ----
 # Why ServerSpec?
+https://medium.com/@Joachim8675309/serverspec-vs-inspec-17272df2718f
+- ServerSpec is targeted for the developer working on DevOps
+- integrates with Vagrant and Docker
+- gains a lot of fexibility from leveraging RSpec
+- works well with SSH, so moving from local tests to infrastructure tests is straightforward
 
+Note:
+So, why would you pick ServerSpec over all these other options, especially since
+it is run by a single developer? I suppose it depends on your use case. If you're
+looking for a tool that can transition from local devops work to testing deployments
+to staging or prod, ServerSpec is a great fit. If you want to write tests that can
+survive a long time and still be clear about what they expect, ServerSpec is the tool
+you should use. If you aren't doing this kind of testing, it's a good starting point.
 
 ---
 # Thanks
